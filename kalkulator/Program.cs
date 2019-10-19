@@ -16,6 +16,8 @@ namespace kalkulator
                 Console.WriteLine("1. Dodawanie");
                 Console.WriteLine("2. Odejmowanie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+                if (menuOption == 0)
+                    break;
 
 
             }
